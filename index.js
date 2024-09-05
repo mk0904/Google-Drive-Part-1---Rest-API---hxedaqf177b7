@@ -11,6 +11,7 @@ const port = 8000;
 app.use(express.json());
 const __dirname = path.resolve();
 
+
 app.get("/file", (req, res) => {
   try{
     const files = getAllFiles();
